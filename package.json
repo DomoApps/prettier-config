@@ -1,9 +1,9 @@
 {
   "name": "@domoapps/prettier-config",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "main": "src/index.js",
   "sideEffects": false,
-  "repository": "git@git.empdev.domo.com:CustomApps/monorepo.git",
+  "repository": "git@github.com:DomoApps/prettier-config.git",
   "scripts": {
     "build": "echo 'no build for prettier-config'",
     "prepare": "yarn run build",
@@ -11,6 +11,6 @@
     "test:watch": "yarn run test"
   },
   "peerDependencies": {
-    "prettier": "^1.19.1"
+    "prettier": "*"
   }
 }
